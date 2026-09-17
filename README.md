@@ -5,7 +5,7 @@
 **Dubai, UAE** &nbsp;·&nbsp; **7+ years** &nbsp;·&nbsp; secure networks, self-hosted AI, infrastructure that runs itself
 
 [![Website](https://img.shields.io/badge/shatheitguy.in-0B0D12?style=for-the-badge&logo=firefox&logoColor=F43F5E)](https://shatheitguy.in)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&labelColor=0B0D12)](https://www.linkedin.com/in/shatheitguy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&labelColor=0B0D12)](https://ae.linkedin.com/in/sharqan-ahamed-8555b8169)
 [![YouTube](https://img.shields.io/badge/YouTube-0B0D12?style=for-the-badge&logo=youtube&logoColor=FF0000)](https://www.youtube.com/@shatheitguy)
 
 </div>
