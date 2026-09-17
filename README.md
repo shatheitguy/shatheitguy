@@ -44,18 +44,22 @@ One-line install, brings no database of its own.
 
 `Python` `Flask` `Kotlin` `Docker` `MariaDB`
 
+![stars](https://img.shields.io/github/stars/shatheitguy/it-vault?style=flat-square&color=F43F5E&labelColor=0B0D12)
+![release](https://img.shields.io/github/v/release/shatheitguy/it-vault?style=flat-square&color=1F2430&labelColor=0B0D12)
+![last commit](https://img.shields.io/github/last-commit/shatheitguy/it-vault?style=flat-square&color=1F2430&labelColor=0B0D12)
+![licence](https://img.shields.io/github/license/shatheitguy/it-vault?style=flat-square&color=1F2430&labelColor=0B0D12)
+
 [Project site](https://shatheitguy.github.io/it-vault/) · [Releases](https://github.com/shatheitguy/it-vault/releases)
 
 </td>
 <td width="45%" valign="top">
 
-<a href="https://github.com/shatheitguy/it-vault">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=shatheitguy&repo=it-vault&theme=dark&bg_color=0B0D12&border_color=1F2430&title_color=F43F5E&icon_color=F43F5E&hide_border=false" alt="IT-Vault" />
-</a>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shatheitguy&theme=github_dark" alt="Languages across my repositories" />
 
-<a href="https://github.com/shatheitguy/shaclick">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=shatheitguy&repo=shaclick&theme=dark&bg_color=0B0D12&border_color=1F2430&title_color=F43F5E&icon_color=F43F5E&hide_border=false" alt="shaclick" />
-</a>
+**[shaclick](https://github.com/shatheitguy/shaclick)**
+
+![stars](https://img.shields.io/github/stars/shatheitguy/shaclick?style=flat-square&color=F43F5E&labelColor=0B0D12)
+![language](https://img.shields.io/github/languages/top/shatheitguy/shaclick?style=flat-square&color=1F2430&labelColor=0B0D12)
 
 </td>
 </tr>
@@ -107,10 +111,12 @@ One-line install, brings no database of its own.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=shatheitguy&show_icons=true&theme=dark&bg_color=0B0D12&border_color=1F2430&title_color=F43F5E&icon_color=F43F5E&text_color=C9D1D9&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shatheitguy&layout=compact&theme=dark&bg_color=0B0D12&border_color=1F2430&title_color=F43F5E&text_color=C9D1D9&langs_count=8" alt="Most used languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shatheitguy&theme=github_dark" alt="Profile summary" width="98%" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shatheitguy&bg_color=0B0D12&color=C9D1D9&line=F43F5E&point=FFFFFF&area=true&area_color=F43F5E&hide_border=false&border_color=1F2430" alt="Contribution activity" width="98%" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shatheitguy&theme=github_dark" alt="Commit and star totals" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shatheitguy&theme=github_dark&utcOffset=4" alt="When I commit, UTC+4" />
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=shatheitguy&theme=dark&background=0B0D12&border=1F2430&ring=F43F5E&fire=F43F5E&currStreakLabel=F43F5E&hide_border=false" alt="Contribution streak" />
 
 </div>
 
