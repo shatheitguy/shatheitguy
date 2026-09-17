@@ -23,10 +23,10 @@ both turn out to be infrastructure problems rather than product ones.
 - 🔥 **FortiGate and OPNsense at the perimeter** — an HA FortiGate pair doing policy-based routing, IPS and application control with site-to-site IPsec and SSL VPN, and OPNsense where I want the rules, the IDS and the logs to be mine: CrowdSec and Suricata inline, the whole estate segmented behind both
 - 🛰️ **Wireless that holds under load** — VLAN-segmented, controller-managed, 10,000+ concurrent clients on match day without a support queue
 - 🧭 **Routing and switching by hand** — MikroTik, Cisco and UniFi: VLANs, OSPF, VRRP, QoS that survives a full stadium, DNS on Unbound with DNSSEC
-- 🤖 **Alfa, my own agent** — a Telegram-native assistant on my own models that watches the estate, acts on it, and does the typing on my projects
+- 🐾 **Alfa and her squad** — my own agents, on my own models and my own hardware. **Alfa** is the catgirl assistant I actually talk to all day, in Telegram, across the estate; she runs a squad of specialists, and **Alfa Cody** is the techie of the group — he lives in the repositories
 - 🔐 **Zero trust, in practice** — WireGuard tunnels instead of a flat LAN, per-device policy, nothing trusted because of where it plugged in
 - 💾 **Disaster recovery that is tested** — multi-site off-site replication on TrueNAS
-- 🧠 **Building with Alfa, hands on the wheel** — I decide the structure, the data model and what "done" means; my own agent writes the passes and I review every one
+- 🧠 **Building with Alfa Cody, hands on the wheel** — I decide the structure, the data model and what "done" means; Cody writes the passes and I review every one
 - 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department
 
 ---
@@ -119,17 +119,18 @@ does not delegate — the data model, where state lives, what breaks under load,
 what "finished" actually means. The typing delegates fine.
 
 So I build with an agent in the loop and my hands on the wheel — mostly
-**Alfa**, which is mine: my own models, my own hardware, reachable from
-Telegram, and as at home in a repository as it is on the estate it watches. I
-specify and review, Alfa writes the passes, and nothing lands that I have not
-read.
+**Alfa Cody**, the techie of Alfa's squad. They are mine: my own models, my
+own hardware, reachable from Telegram. Alfa runs the day; Cody lives in the
+repositories. I specify and review, Cody writes the passes, and nothing lands
+that I have not read.
 
 It is how a one-person IT department ships a web app, an Android client, a
 one-line installer and a test suite in the same month — and why every commit
 message in [IT-Vault](https://github.com/shatheitguy/it-vault) explains *why*,
 not just what.
 
-![Alfa](https://img.shields.io/badge/Alfa-my%20own%20agent-F43F5E?style=flat-square&labelColor=0B0D12)
+![Alfa Cody](https://img.shields.io/badge/Alfa%20Cody-my%20own%20agent-F43F5E?style=flat-square&labelColor=0B0D12)
+![Alfa](https://img.shields.io/badge/Alfa-the%20squad%20lead-0B0D12?style=flat-square&labelColor=0B0D12)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/Copilot-0B0D12?style=flat-square&logo=githubcopilot&logoColor=white)
 ![Ollama](https://img.shields.io/badge/local%20models-0B0D12?style=flat-square&logo=ollama&logoColor=white)
