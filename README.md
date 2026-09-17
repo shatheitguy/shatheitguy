@@ -26,6 +26,7 @@ both turn out to be infrastructure problems rather than product ones.
 - 🤖 **Autonomous infrastructure agent** — a Telegram-native assistant that watches and acts on my estate
 - 🔐 **Zero trust, in practice** — WireGuard tunnels instead of a flat LAN, per-device policy, nothing trusted because of where it plugged in
 - 💾 **Disaster recovery that is tested** — multi-site off-site replication on TrueNAS
+- 🧠 **AI-assisted building, architect's hands on the wheel** — I decide the structure, the data model and what "done" means, then move fast with an agent doing the typing and me reviewing every pass
 - 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department
 
 ---
@@ -107,6 +108,30 @@ One-line install, brings no database of its own.
 **Observability**  
 ![Zabbix](https://img.shields.io/badge/Zabbix-D40000?style=flat-square)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+---
+
+### How I build
+
+I ship software the same way I ship infrastructure: decide the shape first,
+then move quickly and check the result. Knowing the structure is the part that
+does not delegate — the data model, where state lives, what breaks under load,
+what "finished" actually means. The typing delegates fine.
+
+So I build with AI in the loop and my hands on the wheel: I specify and review,
+an agent writes the passes, and nothing lands that I have not read. It is how a
+one-person IT department ships a web app, an Android client, a one-line
+installer and a test suite in the same month — and why every commit message in
+[IT-Vault](https://github.com/shatheitguy/it-vault) explains *why*, not just
+what.
+
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/Copilot-0B0D12?style=flat-square&logo=githubcopilot&logoColor=white)
+![Ollama](https://img.shields.io/badge/local%20models-0B0D12?style=flat-square&logo=ollama&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-0B0D12?style=flat-square&logo=flask&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 
 ---
 
