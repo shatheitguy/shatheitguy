@@ -5,7 +5,7 @@
 **Dubai, UAE** &nbsp;·&nbsp; **7+ years** &nbsp;·&nbsp; secure networks, self-hosted AI, infrastructure that runs itself
 
 [![Website](https://img.shields.io/badge/shatheitguy.in-0B0D12?style=for-the-badge&logo=firefox&logoColor=F43F5E)](https://shatheitguy.in)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B0D12?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/shatheitguy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&labelColor=0B0D12)](https://www.linkedin.com/in/shatheitguy)
 [![YouTube](https://img.shields.io/badge/YouTube-0B0D12?style=for-the-badge&logo=youtube&logoColor=FF0000)](https://www.youtube.com/@shatheitguy)
 
 </div>
@@ -68,7 +68,7 @@ One-line install, brings no database of its own.
 **Virtualisation & storage**  
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
 ![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white)
-![Hyper-V](https://img.shields.io/badge/Hyper--V-0078D4?style=flat-square&logo=windows&logoColor=white)
+![Hyper-V](https://img.shields.io/badge/Hyper--V-0078D4?style=flat-square)
 ![TrueNAS](https://img.shields.io/badge/TrueNAS-0095D5?style=flat-square&logo=truenas&logoColor=white)
 ![Ceph](https://img.shields.io/badge/Ceph-EF5C55?style=flat-square&logo=ceph&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -80,25 +80,25 @@ One-line install, brings no database of its own.
 ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 ![UniFi](https://img.shields.io/badge/UniFi-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)
 ![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white)
-![Suricata](https://img.shields.io/badge/Suricata-EE3A43?style=flat-square&logo=suricata&logoColor=white)
-![CrowdSec](https://img.shields.io/badge/CrowdSec-FE5000?style=flat-square&logo=crowdsec&logoColor=white)
+![Suricata](https://img.shields.io/badge/Suricata-EE3A43?style=flat-square)
+![CrowdSec](https://img.shields.io/badge/CrowdSec-FE5000?style=flat-square)
 
 **Cloud & edge**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 
 **Self-hosted AI & automation**  
 ![Ollama](https://img.shields.io/badge/Ollama-0B0D12?style=flat-square&logo=ollama&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-FDB515?style=flat-square&logo=v&logoColor=black)
+![vLLM](https://img.shields.io/badge/vLLM-FDB515?style=flat-square&logo=vllm&logoColor=black)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 **Observability**  
-![Zabbix](https://img.shields.io/badge/Zabbix-D40000?style=flat-square&logo=zabbix&logoColor=white)
+![Zabbix](https://img.shields.io/badge/Zabbix-D40000?style=flat-square)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
 ---
