@@ -20,9 +20,11 @@ apps, the backups that have to work the one time they are needed. Lately most of
 that is **self-hosted AI on my own metal** and **zero-trust networking**, because
 both turn out to be infrastructure problems rather than product ones.
 
-- 🛰️ **Stadium-scale Wi-Fi** — engineered for 10,000+ concurrent users, match day after match day
+- 🔥 **FortiGate at the perimeter** — HA pair, policy-based routing, IPS and application control, site-to-site IPsec and SSL VPN, the whole estate segmented behind it
+- 🛰️ **Wireless that holds under load** — VLAN-segmented, controller-managed, 10,000+ concurrent clients on match day without a support queue
+- 🧭 **Routing and switching by hand** — MikroTik, Cisco and UniFi: VLANs, OSPF, VRRP, QoS that survives a full stadium, DNS on Unbound with DNSSEC
 - 🤖 **Autonomous infrastructure agent** — a Telegram-native assistant that watches and acts on my estate
-- 🔐 **Zero trust, in practice** — MikroTik + WireGuard, OPNsense hardened with CrowdSec and Suricata
+- 🔐 **Zero trust, in practice** — WireGuard tunnels instead of a flat LAN, OPNsense hardened with CrowdSec and Suricata IDS/IPS, nothing trusted because of where it plugged in
 - 💾 **Disaster recovery that is tested** — multi-site off-site replication on TrueNAS
 - 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department
 
