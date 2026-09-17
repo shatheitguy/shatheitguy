@@ -20,11 +20,11 @@ apps, the backups that have to work the one time they are needed. Lately most of
 that is **self-hosted AI on my own metal** and **zero-trust networking**, because
 both turn out to be infrastructure problems rather than product ones.
 
-- 🔥 **FortiGate at the perimeter** — HA pair, policy-based routing, IPS and application control, site-to-site IPsec and SSL VPN, the whole estate segmented behind it
+- 🔥 **FortiGate and OPNsense at the perimeter** — an HA FortiGate pair doing policy-based routing, IPS and application control with site-to-site IPsec and SSL VPN, and OPNsense where I want the rules, the IDS and the logs to be mine: CrowdSec and Suricata inline, the whole estate segmented behind both
 - 🛰️ **Wireless that holds under load** — VLAN-segmented, controller-managed, 10,000+ concurrent clients on match day without a support queue
 - 🧭 **Routing and switching by hand** — MikroTik, Cisco and UniFi: VLANs, OSPF, VRRP, QoS that survives a full stadium, DNS on Unbound with DNSSEC
 - 🤖 **Autonomous infrastructure agent** — a Telegram-native assistant that watches and acts on my estate
-- 🔐 **Zero trust, in practice** — WireGuard tunnels instead of a flat LAN, OPNsense hardened with CrowdSec and Suricata IDS/IPS, nothing trusted because of where it plugged in
+- 🔐 **Zero trust, in practice** — WireGuard tunnels instead of a flat LAN, per-device policy, nothing trusted because of where it plugged in
 - 💾 **Disaster recovery that is tested** — multi-site off-site replication on TrueNAS
 - 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department
 
@@ -82,6 +82,7 @@ One-line install, brings no database of its own.
 
 **Network & security**  
 ![FortiGate](https://img.shields.io/badge/FortiGate-EE3124?style=flat-square&logo=fortinet&logoColor=white)
+![OPNsense](https://img.shields.io/badge/OPNsense-D94F00?style=flat-square&logo=opnsense&logoColor=white)
 ![MikroTik](https://img.shields.io/badge/MikroTik-293239?style=flat-square&logo=mikrotik&logoColor=white)
 ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 ![UniFi](https://img.shields.io/badge/UniFi-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)
