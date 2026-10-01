@@ -27,7 +27,7 @@ both turn out to be infrastructure problems rather than product ones.
 - 🔐 **Zero trust, in practice** — WireGuard tunnels instead of a flat LAN, per-device policy, nothing trusted because of where it plugged in
 - 💾 **Disaster recovery that is tested** — multi-site off-site replication on TrueNAS
 - 🧠 **Building with Alfa Cody, hands on the wheel** — I decide the structure, the data model and what "done" means; Cody writes the passes and I review every one
-- 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department
+- 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department, and [ALFA Launcher](https://github.com/shatheitguy/alfa-launcher), the Android home screen I wanted on my own phone
 
 ---
 
@@ -63,6 +63,27 @@ One-line install, brings no database of its own.
 
 ![stars](https://img.shields.io/github/stars/shatheitguy/shaclick?style=flat-square&color=F43F5E&labelColor=0B0D12)
 ![language](https://img.shields.io/github/languages/top/shatheitguy/shaclick?style=flat-square&color=1F2430&labelColor=0B0D12)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+**[ALFA Launcher](https://github.com/shatheitguy/alfa-launcher)** · MIT
+
+A sci-fi Android home screen for people who run IT. An orbit dial with live
+battery, RAM and storage around it; a 3D All Apps orbit you spin and tilt with
+one finger; neon orb icons in your accent colour; and ten tools a tap from home:
+network info, ping, DNS, port check, subnet calculator, device info and more.
+Picks up dual and work-profile apps, and updates itself from GitHub Releases.
+
+`Kotlin` `Android` `GitHub Actions` `GitHub Pages`
+
+![release](https://img.shields.io/github/v/release/shatheitguy/alfa-launcher?style=flat-square&color=F43F5E&labelColor=0B0D12)
+![last commit](https://img.shields.io/github/last-commit/shatheitguy/alfa-launcher?style=flat-square&color=1F2430&labelColor=0B0D12)
+![licence](https://img.shields.io/github/license/shatheitguy/alfa-launcher?style=flat-square&color=1F2430&labelColor=0B0D12)
+
+[Project site](https://shatheitguy.github.io/alfa-launcher/) · [Download APK](https://github.com/shatheitguy/alfa-launcher/releases/latest/download/alfa-launcher.apk) · [Releases](https://github.com/shatheitguy/alfa-launcher/releases)
 
 </td>
 </tr>
