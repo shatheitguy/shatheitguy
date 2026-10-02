@@ -71,11 +71,12 @@ One-line install, brings no database of its own.
 
 **[ALFA Launcher](https://github.com/shatheitguy/alfa-launcher)** · MIT
 
-A sci-fi Android home screen for people who run IT. An orbit dial with live
-battery, RAM and storage around it; a 3D All Apps orbit you spin and tilt with
-one finger; neon orb icons in your accent colour; and ten tools a tap from home:
-network info, ping, DNS, port check, subnet calculator, device info and more.
-Picks up dual and work-profile apps, and updates itself from GitHub Releases.
+A sci-fi Android home screen for people who run IT. An orbit dial around a
+battery hub, a 3D All Apps orbit you spin and tilt with one finger, neon orb
+icons, and wallpapers (fluid glass, 3D depth, matte minimal or your own photos)
+set as the real system wallpaper in your accent colour. Fifteen IT tools a tap
+from home: speed test, Wi-Fi signal, SSL checker, Wake-on-LAN, QR codes, ping,
+DNS, subnet calculator and more. Updates itself from GitHub Releases.
 
 `Kotlin` `Android` `GitHub Actions` `GitHub Pages`
 
