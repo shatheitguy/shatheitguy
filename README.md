@@ -27,7 +27,7 @@ both turn out to be infrastructure problems rather than product ones.
 - 🔐 **Zero trust, in practice** — WireGuard tunnels instead of a flat LAN, per-device policy, nothing trusted because of where it plugged in
 - 💾 **Disaster recovery that is tested** — multi-site off-site replication on TrueNAS
 - 🧠 **Building with Alfa Cody, hands on the wheel** — I decide the structure, the data model and what "done" means; Cody writes the passes and I review every one
-- 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department, and [ALFA Launcher](https://github.com/shatheitguy/alfa-launcher), the Android home screen I wanted on my own phone
+- 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department, [FormCraft](https://github.com/shatheitguy/formcraft), a self-hosted form builder that speaks English, Arabic and Tamil, and [ALFA Launcher](https://github.com/shatheitguy/alfa-launcher), the Android home screen I wanted on my own phone — with the Unraid templates for my containers in [one repository](https://github.com/shatheitguy/unraid-templates)
 
 ---
 
@@ -85,6 +85,29 @@ DNS, subnet calculator and more. Updates itself from GitHub Releases.
 ![licence](https://img.shields.io/github/license/shatheitguy/alfa-launcher?style=flat-square&color=1F2430&labelColor=0B0D12)
 
 [Project site](https://shatheitguy.github.io/alfa-launcher/) · [Download APK](https://github.com/shatheitguy/alfa-launcher/releases/latest/download/alfa-launcher.apk) · [Releases](https://github.com/shatheitguy/alfa-launcher/releases)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+**[FormCraft](https://github.com/shatheitguy/formcraft)** · MIT
+
+Self-hosted form builder. Drag-and-drop forms with ten field types, templates
+and scored quizzes, a submissions table with charts and CSV export, roles that
+limit a viewer to the forms they report on, and email and Telegram alerts.
+Forms run in English, Arabic (right-to-left) and Tamil, and a respondent can
+switch language mid-form. Every form gets its own link and, optionally, its own
+port for a reverse proxy or Cloudflare.
+
+One-line install: bundled PostgreSQL, your own, or SQLite. One image for all three.
+
+`TypeScript` `Next.js` `Prisma` `Docker` `PostgreSQL`
+
+![last commit](https://img.shields.io/github/last-commit/shatheitguy/formcraft?style=flat-square&color=F43F5E&labelColor=0B0D12)
+![licence](https://img.shields.io/github/license/shatheitguy/formcraft?style=flat-square&color=1F2430&labelColor=0B0D12)
+
+[Project site](https://shatheitguy.github.io/formcraft/) · [Unraid template](https://github.com/shatheitguy/unraid-templates)
 
 </td>
 </tr>
