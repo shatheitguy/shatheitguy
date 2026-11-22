@@ -27,7 +27,7 @@ both turn out to be infrastructure problems rather than product ones.
 - 🔐 **Zero trust, in practice** — WireGuard tunnels instead of a flat LAN, per-device policy, nothing trusted because of where it plugged in
 - 💾 **Disaster recovery that is tested** — multi-site off-site replication on TrueNAS
 - 🧠 **Building with Alfa Cody, hands on the wheel** — I decide the structure, the data model and what "done" means; Cody writes the passes and I review every one
-- 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department, [FormCraft](https://github.com/shatheitguy/formcraft), a self-hosted form builder that speaks English, Arabic and Tamil, and [ALFA Launcher](https://github.com/shatheitguy/alfa-launcher), the Android home screen I wanted on my own phone — with the Unraid templates for my containers in [one repository](https://github.com/shatheitguy/unraid-templates)
+- 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department, [FormCraft](https://github.com/shatheitguy/formcraft), a self-hosted form builder that speaks English, Arabic and Tamil, and [ALFA Launcher](https://github.com/shatheitguy/alfa-launcher), the Android home screen I wanted on my own phone, and [ZeroLeakage](https://github.com/shatheitguy/ZeroLeakage), a privacy shield for Windows and Android that stops your devices talking behind your back — with the Unraid templates for my containers in [one repository](https://github.com/shatheitguy/unraid-templates)
 
 ---
 
@@ -108,6 +108,30 @@ One-line install: bundled PostgreSQL, your own, or SQLite. One image for all thr
 ![licence](https://img.shields.io/github/license/shatheitguy/formcraft?style=flat-square&color=1F2430&labelColor=0B0D12)
 
 [Project site](https://shatheitguy.github.io/formcraft/) · [Unraid template](https://github.com/shatheitguy/unraid-templates)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+**[ZeroLeakage](https://github.com/shatheitguy/ZeroLeakage)** · Windows + Android
+
+*Zero bits leaked.* A privacy shield that cuts telemetry, trackers and unknown
+apps off the network. On Android it is a real on-device DNS firewall: a local
+VPN that routes only DNS, names the app behind every lookup, filters it through
+AdGuard-style lists (OISD, HaGeZi, StevenBlack and more) and resolves the rest
+over DNS-over-HTTPS with DNSSEC, with per-app kill switches, a Strict Guard
+"ask to connect" mode and a packet inspector down to the country each IP lives
+in. Or skip the VPN entirely with Lite mode on Android's Private DNS. On Windows:
+a dark-glass command centre that starts with the PC, lives in the tray and scans
+through Microsoft Defender.
+
+`Kotlin` `Jetpack Compose` `C#` `WPF` `.NET` `WiX`
+
+![release](https://img.shields.io/github/v/release/shatheitguy/ZeroLeakage?style=flat-square&color=00F5A0&labelColor=0B0D12)
+![last commit](https://img.shields.io/github/last-commit/shatheitguy/ZeroLeakage?style=flat-square&color=1F2430&labelColor=0B0D12)
+
+[Project site](https://shatheitguy.github.io/ZeroLeakage/) · [Releases](https://github.com/shatheitguy/ZeroLeakage/releases/latest)
 
 </td>
 </tr>
