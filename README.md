@@ -20,14 +20,14 @@ apps, the backups that have to work the one time they are needed. Lately most of
 that is **self-hosted AI on my own metal** and **zero-trust networking**, because
 both turn out to be infrastructure problems rather than product ones.
 
-- 🔥 **FortiGate and OPNsense at the perimeter** — an HA FortiGate pair doing policy-based routing, IPS and application control with site-to-site IPsec and SSL VPN, and OPNsense where I want the rules, the IDS and the logs to be mine: CrowdSec and Suricata inline, the whole estate segmented behind both
+- 🔥 **Next-generation firewalls at the perimeter** — an HA firewall pair doing policy-based routing, IPS and application control with site-to-site IPsec and SSL VPN, and open-source firewalls where I want the rules, the IDS and the logs to be mine: community threat intelligence and intrusion detection inline, the whole estate segmented behind both
 - 🛰️ **Wireless that holds under load** — VLAN-segmented, controller-managed, 10,000+ concurrent clients on match day without a support queue
-- 🧭 **Routing and switching by hand** — MikroTik, Cisco and UniFi: VLANs, OSPF, VRRP, QoS that survives a full stadium, DNS on Unbound with DNSSEC
-- 🐾 **Alfa and her squad** — my own agents, on my own models and my own hardware. **Alfa** is the catgirl assistant I actually talk to all day, in Telegram, across the estate; she runs a squad of specialists, and **Alfa Cody** is the techie of the group — he lives in the repositories
-- 🔐 **Zero trust, in practice** — WireGuard tunnels instead of a flat LAN, per-device policy, nothing trusted because of where it plugged in
-- 💾 **Disaster recovery that is tested** — multi-site off-site replication on TrueNAS
+- 🧭 **Routing and switching by hand** — enterprise routers, switches and access points: VLANs, OSPF, VRRP, QoS that survives a full stadium, a validating DNS resolver with DNSSEC
+- 🐾 **Alfa and her squad** — my own agents, on my own models and my own hardware. **Alfa** is the catgirl assistant I actually talk to all day, in chat, across the estate; she runs a squad of specialists, and **Alfa Cody** is the techie of the group — he lives in the repositories
+- 🔐 **Zero trust, in practice** — modern VPN tunnels instead of a flat LAN, per-device policy, nothing trusted because of where it plugged in
+- 💾 **Disaster recovery that is tested** — multi-site off-site replication on self-hosted storage
 - 🧠 **Building with Alfa Cody, hands on the wheel** — I decide the structure, the data model and what "done" means; Cody writes the passes and I review every one
-- 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department, [FormCraft](https://github.com/shatheitguy/formcraft), a self-hosted form builder that speaks English, Arabic and Tamil, and [ALFA Launcher](https://github.com/shatheitguy/alfa-launcher), the Android home screen I wanted on my own phone, and [ZeroLeakage](https://github.com/shatheitguy/ZeroLeakage), a privacy shield for Windows and Android that stops your devices talking behind your back — with the Unraid templates for my containers in [one repository](https://github.com/shatheitguy/unraid-templates)
+- 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department, [FormCraft](https://github.com/shatheitguy/formcraft), a self-hosted form builder that speaks English, Arabic and Tamil, and [ALFA Launcher](https://github.com/shatheitguy/alfa-launcher), the Android home screen I wanted on my own phone, and [ZeroLeakage](https://github.com/shatheitguy/ZeroLeakage), a privacy shield for Windows and Android that stops your devices talking behind your back — with the templates for my containers in [one repository](https://github.com/shatheitguy/unraid-templates)
 
 ---
 
@@ -107,7 +107,7 @@ One-line install: bundled PostgreSQL, your own, or SQLite. One image for all thr
 ![last commit](https://img.shields.io/github/last-commit/shatheitguy/formcraft?style=flat-square&color=F43F5E&labelColor=0B0D12)
 ![licence](https://img.shields.io/github/license/shatheitguy/formcraft?style=flat-square&color=1F2430&labelColor=0B0D12)
 
-[Project site](https://shatheitguy.github.io/formcraft/) · [Unraid template](https://github.com/shatheitguy/unraid-templates)
+[Project site](https://shatheitguy.github.io/formcraft/) · [Container template](https://github.com/shatheitguy/unraid-templates)
 
 </td>
 </tr>
@@ -141,42 +141,40 @@ through Microsoft Defender.
 
 ### The stack I reach for
 
-**Virtualisation & storage**  
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white)
-![Hyper-V](https://img.shields.io/badge/Hyper--V-0078D4?style=flat-square)
-![TrueNAS](https://img.shields.io/badge/TrueNAS-0095D5?style=flat-square&logo=truenas&logoColor=white)
-![Ceph](https://img.shields.io/badge/Ceph-EF5C55?style=flat-square&logo=ceph&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+**Virtualisation & storage**
+![Hypervisors](https://img.shields.io/badge/Hypervisors-F43F5E?style=flat-square&labelColor=0B0D12)
+![Clustered virtualisation](https://img.shields.io/badge/Clustered%20virtualisation-1F2430?style=flat-square&labelColor=0B0D12)
+![ZFS storage](https://img.shields.io/badge/ZFS%20storage-1F2430?style=flat-square&labelColor=0B0D12)
+![Distributed storage](https://img.shields.io/badge/Distributed%20storage-1F2430?style=flat-square&labelColor=0B0D12)
+![Containers](https://img.shields.io/badge/Containers-1F2430?style=flat-square&labelColor=0B0D12)
+![Container orchestration](https://img.shields.io/badge/Container%20orchestration-1F2430?style=flat-square&labelColor=0B0D12)
 
-**Network & security**  
-![FortiGate](https://img.shields.io/badge/FortiGate-EE3124?style=flat-square&logo=fortinet&logoColor=white)
-![OPNsense](https://img.shields.io/badge/OPNsense-D94F00?style=flat-square&logo=opnsense&logoColor=white)
-![MikroTik](https://img.shields.io/badge/MikroTik-293239?style=flat-square&logo=mikrotik&logoColor=white)
-![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
-![UniFi](https://img.shields.io/badge/UniFi-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)
-![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white)
-![Suricata](https://img.shields.io/badge/Suricata-EE3A43?style=flat-square)
-![CrowdSec](https://img.shields.io/badge/CrowdSec-FE5000?style=flat-square)
+**Network & security**
+![Next-gen firewalls](https://img.shields.io/badge/Next--gen%20firewalls-F43F5E?style=flat-square&labelColor=0B0D12)
+![Open-source firewalls](https://img.shields.io/badge/Open--source%20firewalls-1F2430?style=flat-square&labelColor=0B0D12)
+![Enterprise routing](https://img.shields.io/badge/Enterprise%20routing-1F2430?style=flat-square&labelColor=0B0D12)
+![Enterprise switching](https://img.shields.io/badge/Enterprise%20switching-1F2430?style=flat-square&labelColor=0B0D12)
+![Managed Wi-Fi](https://img.shields.io/badge/Managed%20Wi--Fi-1F2430?style=flat-square&labelColor=0B0D12)
+![VPN](https://img.shields.io/badge/VPN-1F2430?style=flat-square&labelColor=0B0D12)
+![Intrusion detection](https://img.shields.io/badge/Intrusion%20detection-1F2430?style=flat-square&labelColor=0B0D12)
+![Threat intelligence](https://img.shields.io/badge/Threat%20intelligence-1F2430?style=flat-square&labelColor=0B0D12)
 
-**Cloud & edge**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+**Cloud & edge**
+![Public cloud](https://img.shields.io/badge/Public%20cloud-F43F5E?style=flat-square&labelColor=0B0D12)
+![Hybrid cloud](https://img.shields.io/badge/Hybrid%20cloud-1F2430?style=flat-square&labelColor=0B0D12)
+![CDN & edge](https://img.shields.io/badge/CDN%20%26%20edge-1F2430?style=flat-square&labelColor=0B0D12)
+![Reverse proxy](https://img.shields.io/badge/Reverse%20proxy-1F2430?style=flat-square&labelColor=0B0D12)
 
-**Self-hosted AI & automation**  
-![Ollama](https://img.shields.io/badge/Ollama-0B0D12?style=flat-square&logo=ollama&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-FDB515?style=flat-square&logo=vllm&logoColor=black)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+**Self-hosted AI & automation**
+![Local LLMs](https://img.shields.io/badge/Local%20LLMs-F43F5E?style=flat-square&labelColor=0B0D12)
+![Model serving](https://img.shields.io/badge/Model%20serving-1F2430?style=flat-square&labelColor=0B0D12)
+![Workflow automation](https://img.shields.io/badge/Workflow%20automation-1F2430?style=flat-square&labelColor=0B0D12)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-**Observability**  
-![Zabbix](https://img.shields.io/badge/Zabbix-D40000?style=flat-square)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+**Observability**
+![Monitoring & alerting](https://img.shields.io/badge/Monitoring%20%26%20alerting-F43F5E?style=flat-square&labelColor=0B0D12)
+![Dashboards](https://img.shields.io/badge/Dashboards-1F2430?style=flat-square&labelColor=0B0D12)
 
 ---
 
@@ -189,7 +187,7 @@ what "finished" actually means. The typing delegates fine.
 
 So I build with an agent in the loop and my hands on the wheel — mostly
 **Alfa Cody**, the techie of Alfa's squad. They are mine: my own models, my
-own hardware, reachable from Telegram. Alfa runs the day; Cody lives in the
+own hardware, reachable from my phone. Alfa runs the day; Cody lives in the
 repositories. I specify and review, Cody writes the passes, and nothing lands
 that I have not read.
 
@@ -200,9 +198,8 @@ not just what.
 
 ![Alfa Cody](https://img.shields.io/badge/Alfa%20Cody-my%20own%20agent-F43F5E?style=flat-square&labelColor=0B0D12)
 ![Alfa](https://img.shields.io/badge/Alfa-the%20squad%20lead-0B0D12?style=flat-square&labelColor=0B0D12)
-![AI](https://img.shields.io/badge/AI-D97757?style=flat-square&logo=ai&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/Copilot-0B0D12?style=flat-square&logo=githubcopilot&logoColor=white)
-![Ollama](https://img.shields.io/badge/local%20models-0B0D12?style=flat-square&logo=ollama&logoColor=white)
+![AI coding assistants](https://img.shields.io/badge/AI%20coding%20assistants-0B0D12?style=flat-square&labelColor=0B0D12)
+![Local models](https://img.shields.io/badge/local%20models-0B0D12?style=flat-square&labelColor=0B0D12)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-0B0D12?style=flat-square&logo=flask&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
