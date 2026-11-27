@@ -27,7 +27,7 @@ both turn out to be infrastructure problems rather than product ones.
 - 🔐 **Zero trust, in practice** — modern VPN tunnels instead of a flat LAN, per-device policy, nothing trusted because of where it plugged in
 - 💾 **Disaster recovery that is tested** — multi-site off-site replication on self-hosted storage
 - 🧠 **Building with Alfa Cody, hands on the wheel** — I decide the structure, the data model and what "done" means; Cody writes the passes and I review every one
-- 📦 **Open source** — [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department, [FormCraft](https://github.com/shatheitguy/formcraft), a self-hosted form builder that speaks English, Arabic and Tamil, and [ALFA Launcher](https://github.com/shatheitguy/alfa-launcher), the Android home screen I wanted on my own phone, and [ZeroLeakage](https://github.com/shatheitguy/ZeroLeakage), a privacy shield for Windows and Android that stops your devices talking behind your back — with the templates for my containers in [one repository](https://github.com/shatheitguy/unraid-templates)
+- 📦 **Open source** — [NoCapOS](https://github.com/shatheitguy/nocapos), a home server OS that turns any PC or Raspberry Pi into your own cloud, [IT-Vault](https://github.com/shatheitguy/it-vault), an asset register and helpdesk for whoever *is* the IT department, [FormCraft](https://github.com/shatheitguy/formcraft), a self-hosted form builder that speaks English, Arabic and Tamil, and [ALFA Launcher](https://github.com/shatheitguy/alfa-launcher), the Android home screen I wanted on my own phone, and [ZeroLeakage](https://github.com/shatheitguy/ZeroLeakage), a privacy shield for Windows and Android that stops your devices talking behind your back — with the templates for my containers in [one repository](https://github.com/shatheitguy/unraid-templates)
 
 ---
 
@@ -63,6 +63,28 @@ One-line install, brings no database of its own.
 
 ![stars](https://img.shields.io/github/stars/shatheitguy/shaclick?style=flat-square&color=F43F5E&labelColor=0B0D12)
 ![language](https://img.shields.io/github/languages/top/shatheitguy/shaclick?style=flat-square&color=1F2430&labelColor=0B0D12)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+**[NoCapOS](https://github.com/shatheitguy/nocapos)** · MIT
+
+A free, open-source home server OS on Debian 13. Install it from a USB stick or
+SD card and a PC, mini PC or Raspberry Pi becomes your own personal cloud: a
+native desktop on the screen and the same desktop from any browser, ZFS
+storage, file sharing and backups, a firewall and network ad blocker, virtual
+machines, a Docker App Store, local AI agents, and a phone app that keeps it
+all linked. Already on Debian, Ubuntu or Raspberry Pi OS? One line installs it.
+
+`Go` `React` `TypeScript` `Debian` `Docker` `Kotlin`
+
+![release](https://img.shields.io/github/v/release/shatheitguy/nocapos?style=flat-square&color=F43F5E&labelColor=0B0D12)
+![last commit](https://img.shields.io/github/last-commit/shatheitguy/nocapos?style=flat-square&color=1F2430&labelColor=0B0D12)
+![licence](https://img.shields.io/github/license/shatheitguy/nocapos?style=flat-square&color=1F2430&labelColor=0B0D12)
+
+[Project site](https://shatheitguy.github.io/nocapos/) · [Download](https://github.com/shatheitguy/nocapos/releases/latest) · [Releases](https://github.com/shatheitguy/nocapos/releases)
 
 </td>
 </tr>
